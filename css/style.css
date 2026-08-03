@@ -265,7 +265,7 @@ It remove focus visuals for elements focused by mouse/touch. */
   left: 6%;
   z-index: var(--z-nav);
   width: 88%;
-  padding: 1.7rem 1.4rem 2rem 1.4rem;
+  padding: 1.7rem 1.4rem 1.4rem 1.4rem;
   border-radius: var(--radius-sm);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0);
   background: var(--clr-neutral-white);
@@ -273,7 +273,7 @@ It remove focus visuals for elements focused by mouse/touch. */
   text-align: center;
   opacity: 0;
   visibility: hidden;
-  transform: translateY(-1rem) scale(0.95);
+  transform: translateY(-1rem);
   transition:
     opacity var(--transition-standard),
     transform var(--transition-standard),
